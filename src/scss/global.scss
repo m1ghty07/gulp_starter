@@ -1,0 +1,16 @@
+@import 'vars';
+
+body {
+  color: $black;
+  background-color: $white;
+  //   font-family: Arial, Helvetica, sans-serif;
+  font-size: $font;
+  font-weight: normal;
+  line-height: $line-height;
+}
+
+.container {
+  max-width: $container;
+  padding: 0 10px;
+  margin: 0 auto;
+}

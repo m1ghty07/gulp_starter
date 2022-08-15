@@ -1,8 +1,3 @@
-import * as flsFunctions from "./modules/functions.js";
+import { isWebp } from './modules/utils'
 
-flsFunctions.isWebp();
-
-/*
-import Swiper, { Navigation, Pagination } from 'swiper';
-const swiper = new Swiper();
-*/
+isWebp()
